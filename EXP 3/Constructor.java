@@ -38,3 +38,6 @@ System.out.println("Volume is "+volume+" units");
 }
 
 }
+
+output: 
+Volume is 27000 units
