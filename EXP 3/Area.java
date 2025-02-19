@@ -28,7 +28,7 @@ public static void main(String[] args){
 
 }
 
-**Output**:
+**Output:**
 Area of square is 25
 Area of rectangle is 30
 Area of circle is 84.27
