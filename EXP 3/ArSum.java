@@ -26,3 +26,8 @@ a.sum(5,5,5);
 }
 
 }
+
+output: 
+Sum is 10
+Sum is 15
+Sum is 15
