@@ -1,22 +1,20 @@
-class A {
-    void show() {
-        System.out.println("Show in A");
-    }
+interface Animal {
+    void sound();
 }
 
-class B extends A {
-    void show() {
-        super.show();
-        System.out.println("Show in B");
+class Cat implements Animal {
+    public void sound() {
+        System.out.println("Cat meows");
     }
 }
 
 public class Main5 {
     public static void main(String[] args) {
-        B obj = new B();
-        obj.show();
+        Cat c = new Cat();
+        c.sound();
     }
 }
 
-output: Show in A
-Show in B
+
+output: Cat meows
+
